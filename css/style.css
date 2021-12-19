@@ -88,11 +88,20 @@ button {
 }
 
 @media (max-width: 480px) {
-    main {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 3fr;
 
-      
-    }
+  main{
+    margin: 1%;
+    height: auto;
   }
+  .containergeneral .boxtwo{
+    grid-column-start: 1;
+  grid-column-end: -1;  
+  border-bottom-left-radius: 0;
+  padding: auto;
+  }
+
+  .containergeneral .boxthree{
+    grid-column-start: 1;
+  grid-column-end: -1;  
+  }
+}
