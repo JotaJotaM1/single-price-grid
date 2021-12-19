@@ -65,46 +65,48 @@ span {
 }
 
 button {
-  background-color: hsl(71, 73%, 54%);
-  color: hsl(204, 43%, 93%);
-  font-size: 15px;
-  font-weight: bold;
-  border-style: none;
-  margin-top: 30px;
-  padding: 10px;
   width: 15rem;
   height: 3.2rem;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  border-style: none;
   border-radius: 0.3rem;
   cursor: pointer;
   box-shadow: 0px 6px 12px -6px grey;
 }
 
-.tittletwo,
-.tittlethree {
+.tittletwo, .tittlethree {
   font-size: 20px;
 }
 
 .text {
   color: hsl(204, 43%, 88%);
+  list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 480px) {
   body {
     background-color: hsl(204, 43%, 93%);
   }
-  main{
-    margin: 1%;
+  main {
+    margin: 2%;
     height: auto;
   }
-  .containergeneral .boxtwo{
+  .containergeneral .boxtwo {
     grid-column-start: 1;
-  grid-column-end: -1;  
-  border-bottom-left-radius: 0;
-  padding: auto;
+    grid-column-end: -1;
+    border-bottom-left-radius: 0;
+    padding: auto;
   }
 
-  .containergeneral .boxthree{
+  .containergeneral .boxthree {
     grid-column-start: 1;
-  grid-column-end: -1;  
+    grid-column-end: -1;
+    border-bottom-left-radius: 1rem;
   }
 }
